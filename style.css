@@ -1,0 +1,152 @@
+*{
+    text-decoration: none;
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    margin:0px;
+    padding:0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.wrapper{
+    width:1100px;
+    margin:auto;
+    position:relative;
+}
+
+.logo a{
+    font-size: 50px;
+    font-weight:bold;
+    float:left;
+    font-family:'courier';
+    color: #364F6B;
+}
+
+.menu{
+    float:right;
+}
+
+nav{
+    width:100%;
+    margin:auto;
+    display:flex;
+    line-height: 80px;
+    position:sticky;
+    position:-webkit-sticky;
+    top: 0;
+    background: #FFFFFF;
+    z-index:1;
+    border-bottom: 1px solid #364F6B;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+}
+
+nav ul li{
+    float: left;
+}
+
+nav ul li a{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding:0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+section{
+    margin:auto;
+    display:flex;
+    margin-bottom:50px;
+}
+
+.kolom{
+    padding-top: 100px;
+    font-size: 23px;
+    text-align: center;
+    margin-top:100px;
+    margin: auto;
+    margin-bottom:100px;
+    font-family: 'Corbel';
+}
+
+.kolom .deskripsi{
+    text-align: center;
+    font-size:25px;
+    font-weight: bold;
+    font-family: 'Corbel';
+    color: #364F6B;
+}
+
+h2{
+    font-family: 'comic sans-ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364F6B;
+    width: 100%;
+    line-height:50px;
+}
+
+a.tbl-biru{
+    background: blue;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor:pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover{
+    background:#FC5185;
+    text-decoration:none;
+}
+
+a.tbl-pink{
+    background:#FC5185;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+a.tbl-pink:hover{
+    background: blue;
+    text-decoration: none;
+}
+
+p{
+    margin :5px 0px 10px 0px;
+    padding: 5px 0px 10px 0px;
+}
+
+.kolomm {
+    font-family:'arial';
+    text-decoration: none;
+    font-weight: none;
+    position: relative;
+    text-align:right;
+}
+
+#footer {
+    margin: auto;
+    background-color:black;
+    font-family: Corbel;
+    color: white;
+    clear:both;
+    text-align:center;
+    padding:25px; 
+}
